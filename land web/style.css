@@ -1,0 +1,61 @@
+.mynav{
+    border-bottom: 1px solid black;
+}
+
+P{
+    color: grey;
+}
+h6{
+    color: gray;
+}
+.img-fluid{
+    /* filter:  blur(5px); */
+}
+.img-fluid:hover{
+filter: none;
+}
+.hero-img{
+    width: 720px !important ;
+    height: 400px !important;
+  animation-name: sani;
+  animation-duration: 0.8s;
+  animation-delay: 1s;
+  animation-duration: infinite;
+
+}
+@keyframes sani{
+    0%{
+        transform: skewY(3deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+
+.s{
+    margin-top: 5%;
+}
+h1{
+    font-weight: 500;
+    
+}
+h3{
+    font-weight: 300;
+}
+figcaption{
+    font-style: italic;
+}
+button{position: relative;
+    left: 45%;
+    margin-top: 10%;
+height: 60px; ;
+
+font-size: 20px;
+    align-items: center;
+    background: transparent;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
